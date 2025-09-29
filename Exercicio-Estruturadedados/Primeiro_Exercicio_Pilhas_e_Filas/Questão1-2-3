@@ -1,0 +1,11 @@
+1 -Questão
+A estrutura de dados mais adequada é a Pilha porque a função de desfazer apaga da ultima ação á primeira ação,sendo assim, o ultimo texto a ser digitado vai ser o primeiro a ser apagado e o primeiro irá ser o último.A pilha funciona exatamente desse forma,cada nova ação é empilhada,e ao usar ctrl+z,a ação mais recente(ultima) é desempilhada,garantindo que o histórico seja revertido corretamente na ordem inversa.
+
+
+2 -Questão
+A pilha é a estrutura mais adequada.Isso ocorre porque uma pilha opera no principio lifo(last in,first out)permitindo que o último exame realizado seja o primeiro a ser removido e impresso,atendendo exatamente ao requisito de inversão de ordem.
+Quanto a implementação, eu usaria uma lista encadeada,por ser mais flexivel,permitindo adicionar ou remover exames,o que pode ser útil se o número de exames variar significamente.Podendo haver mais exames em caso de emergências ou ter possiveis cancelamentos ou adiamentos.
+
+
+3-Questão
+A ordem final de execução será: primeiro, as tarefas prioritárias serão resolvidas na ordem inversa em que foram movidas para a pilha (da última para a primeira inserida), e depois as tarefas restantes na fila serão processadas na ordem cronológica em que foram recebidas. Essa abordagem garante que as tarefas prioritárias sejam atendidas antes das demais, justificando o uso simultâneo de fila (para tarefas comuns) e pilha (para tarefas prioritárias).
