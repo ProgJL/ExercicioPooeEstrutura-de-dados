@@ -1,0 +1,29 @@
+Nome: Jorge Augusto Melém da Silva Lima
+Turno:manhã
+curso:ADS
+Matricula:26159658
+
+
+1 Questão- Cite quatro exemplos diferentes que podem ser considerados
+como agregação ou composição (dois de cada).
+Agregação
+1-Caderno e mochila
+2-pote e doce
+
+Composição
+1-livro e capítulo
+2-mesa e perna
+
+2-Questão - O que acontece se uma classe for programada como final? E se
+um atributo for “setado” como final?
+
+A classe não vai poder ser herdada e no caso do atributo,quando o valor do atributo é atribuído,ele não pode ser alterado.
+
+3-Questão - Qual a vantagem de programar um método estático?
+o método vai poder ser acessado sem a necessidade de  instanciar um objeto
+
+4-Questão - Pesquise e cite mais dois métodos que fazem parte da classe
+Object.
+
+1-Clone()
+2-Finalize()
